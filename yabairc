@@ -45,4 +45,7 @@ yabai -m rule --add app="^CleanMyMac X$" manage=off
 yabai -m rule --add app="^Kap$" manage=off
 yabai -m rule --add app="^Contexts$" manage=off
 
+# set layer through rule
+yabai -m rule --add app="^System Preferences$" layer=above;\
+
 echo "yabai configuration loaded.."
