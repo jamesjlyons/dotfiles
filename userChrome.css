@@ -302,6 +302,11 @@
    color: grey !important;
    opacity: .2 !important;
  }
+
+ /* Change inactive tabs text color. */
+ .tabbrowser-tab:not([selected]) .tab-content{
+  color: black !important;
+}
  
  .tabbrowser-tab[visuallyselected="true"] {
    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.33);
