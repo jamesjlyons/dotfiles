@@ -26,7 +26,7 @@ hyper - 0 : yabai -m space --balance
 # shift + alt - up     : yabai -m window --grid 1:1:0:0:1:1
 
 # make floating window fill center ultriwide screen
-hyper - c     : yabai -m window --grid 1:12:2:0:8:1
+meh - c     : yabai -m window --grid 1:12:2:0:8:1
 
 # make floating window fill left-half of screen
 # shift + alt - left   : yabai -m window --grid 1:2:0:0:1:1
@@ -169,9 +169,9 @@ hyper - 0x1E : yabai -m window --layer above
 hyper - 0x2A : yabai -m window --layer normal
 
 # change layout of desktop
-fn - d : yabai -m space --layout bsp
-fn - f : yabai -m space --layout float
-fn - s : yabai -m space --layout stack
+meh - d : yabai -m space --layout bsp
+meh - f : yabai -m space --layout float
+meh - s : yabai -m space --layout stack
 
 # stacks
 hyper - s : yabai -m window --focus stack.prev
